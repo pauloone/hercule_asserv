@@ -31,6 +31,6 @@ jobs:
     - name: Lint with pylint
       run: |
         pylint -j 0 hercule
-    - name: Test with pytest
-      run: |
-        pytest
+    - name: validate types with mypy
+      run: | 
+        mypy --strict hercule
