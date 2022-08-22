@@ -7,7 +7,7 @@ setup(
     keywords="robot backstepping unicycle",
     packages=["hercule"],
     license="MIT",
-    install_requires=["roboticstoolbox-python"],
+    install_requires=["gym-electric-motor"],
     extras_require={
           'tests':  ["mypy", "pylint"]
     }
